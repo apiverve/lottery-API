@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/lottery",
+  "version": "1.1.5",
+  "description": "Lottery Numbers is a simple tool for looking up winning lottery numbers. It returns the winning lottery numbers based on the lottery name provided.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/lottery-API.git"
+  },
+  "keywords": [
+    "lottery numbers","lottery numbers api","lottery numbers tool","lottery numbers software","lottery numbers service"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/lottery-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/lottery?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.7"
+  }
+}
